@@ -21,6 +21,7 @@ Repository with notes and code created while learning eBPF
 ## Programs
 
 * ``sudo python3 bcc_1.py``
+* ``sudo python3 bcc_2.py``
 
 ## Links
 
