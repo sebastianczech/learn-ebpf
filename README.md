@@ -20,8 +20,17 @@ Repository with notes and code created while learning eBPF
 
 ## Programs
 
-* ``sudo python3 bcc_1.py``
-* ``sudo python3 bcc_2.py``
+* basic BCC:
+  * ``sudo python3 bcc_1.py``
+  * [bpf_trace_printk](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md#1-bpf_trace_printk)
+* BPF maps:
+  * ``sudo python3 bcc_2.py``
+  * [bpf_get_current_uid_gid](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md#5-bpf_get_current_uid_gid)
+* ring buffers:
+  * ``sudo python3 bcc_3.py``
+  * [bpf_get_current_pid_tgid](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md#4-bpf_get_current_pid_tgid)
+  * [bpf_get_current_comm](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md#6-bpf_get_current_comm)
+  * [bpf_probe_read_kernel](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md#1-bpf_probe_read_kernel)
 
 ## Links
 
