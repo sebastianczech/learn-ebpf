@@ -31,6 +31,9 @@ Repository with notes and code created while learning eBPF
   * [bpf_get_current_pid_tgid](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md#4-bpf_get_current_pid_tgid)
   * [bpf_get_current_comm](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md#6-bpf_get_current_comm)
   * [bpf_probe_read_kernel](https://github.com/iovisor/bcc/blob/master/docs/reference_guide.md#1-bpf_probe_read_kernel)
+* [tail calls](https://docs.cilium.io/en/stable/bpf/architecture/#tail-calls):
+  * ``sudo python3 bcc_4.py``
+  * [bpf_tail_call](https://man7.org/linux/man-pages/man7/bpf-helpers.7.html)
 
 ## Links
 
